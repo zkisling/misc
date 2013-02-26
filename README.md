@@ -1,4 +1,4 @@
-misc
-====
+exercises
+=========
 
-misc practice problems
+Repo of programming exercises 
