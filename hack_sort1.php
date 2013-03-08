@@ -11,17 +11,17 @@ function insertionSort($stack)
 		} else {
 			$stack[$i] = $v;
 		}
-			for ($j = 0; $j < $s; $j++) {
-				echo $stack[$j];
-					if ($j + 1 < $s) {
-						echo " ";
-					} else {
-						echo "\n";
-					}
-			}
-		 if ($stack[$i] <= $v) {
+		for ($j = 0; $j < $s; $j++) {
+			echo $stack[$j];
+				if ($j + 1 < $s) {
+					echo " ";
+				} else {
+					echo "\n";
+				}
+		}
+		if ($stack[$i] <= $v) {
 		 	break;
-		 }
+		}
 	}
 }
 
